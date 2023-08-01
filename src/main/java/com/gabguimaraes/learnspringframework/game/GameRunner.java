@@ -3,8 +3,8 @@ package com.gabguimaraes.learnspringframework.game;
 public class GameRunner {
     GamingConsole game;
 
-    public GameRunner(GamingConsole marioGame) {
-        this.game = marioGame;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
     public void run() {
